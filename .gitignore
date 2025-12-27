@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.lock.hcl
+terraform.tfvars
+
+# AWS
+.aws/
+
+# Archivos generados
+bucket-policy.json
+index.html
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+
+# Temporales
+*.tmp
+*.temp
